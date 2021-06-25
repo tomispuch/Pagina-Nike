@@ -1,0 +1,1072 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+/**---------------------------PAGINA PRINCIPAL---------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+
+/**MODIFICADOR DE LA IMAGEN PRINCIPAL DE LA PAGINA PRINCIPAL*/
+
+.imagen_principal {
+    height: 45vh;
+    width: 100%;
+    z-index: 3;
+    background-size: 100%;
+    background-image: url(https://www.snipes.es/on/demandware.static/-/Library-Sites-snse-global/default/dw37ca7923/images/General_Header/Brands/Snipes_OS_Logo_Header_NikeSportswear.jpg);
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.titulo_principal {
+    padding: 10px;
+}
+
+.ImgMenu {
+    height: 250px;
+    width: 300px;
+}
+
+body {
+    background-color: white;
+}
+
+
+/** MODIFICACIONES DE LA BARRA SUPERIOR**/
+
+header {
+    background-color: white;
+    top: 0;
+    position: sticky;
+    z-index: 100;
+    font-weight: bold;
+}
+
+.nav__a {
+    color: #B7B7A4;
+}
+
+.nav__li {
+    display: inline-block;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.nav__li:hover {
+    font-size: 20px;
+    transition: 1s;
+}
+
+.nav__div-menu {
+    background-color: #464E4D;
+}
+
+.li__img {
+    display: inline-block;
+    width: 25px;
+}
+
+
+/** MODIFICADOR DE LOS CUADROS DE LA DERECHA EN LOS GRID EN LOS GRID 1**/
+
+.Articulo_h1 {
+    color: white;
+    display: inline-block;
+    background-color: #464E4D;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 80vh;
+    margin-right: 40vw;
+    font-size: 18px;
+}
+
+
+/** MODIFICADOR DE LOS CUADROS DE LA DERECHA EN LOS GRID EN LOS GRID 2**/
+
+.Articulo_h12 {
+    color: white;
+    display: inline-block;
+    background-color: #464E4D;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 80vh;
+    margin-right: 40vw;
+    font: size 18px;
+    text-decoration: none;
+}
+
+
+/** DESCRP DE LAS COLECCIONES EN GRID 1**/
+
+.Descripcion_titulos {
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    background-color: rgb(100, 92, 92, .50 );
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/** DESCRP DE LAS COLECCIONES EN GRID 2**/
+
+.Descripcion_titulos2 {
+    margin: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    background-color: rgb(100, 92, 92, .50 );
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+/** DESCRP DE LAS CAJAS QUE CONTIENEN LA DESCRPCION DE LA COLECCION SPORTSWEAR**/
+
+.Caja_Descripcion1 {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    height: 100vh;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_3.0/w_371,c_limit/0ba440cc-b3f9-4687-99f1-f7d8ab7f0c99/nike-sportswear.png);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+/** DESCRP DE LAS CAJAS QUE CONTIENEN LA DESCRPCION DE LA COLECCION RUNNING**/
+
+.Caja_Descripcion2 {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    height: 100vh;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_3.0/h_500,c_limit/5cf57615-c0a2-4844-b982-e91f3d39c3ef/nike-running.jpg);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+
+/** DESCRP DE LAS CAJAS QUE CONTIENEN LA DESCRPCION DE LA COLECCION FUTBOL**/
+
+.Caja_Descripcion21 {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    height: 100vh;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_3.0/w_371,c_limit/4476aa45-34b7-42ad-b5c7-d14eae66d1a7/nike-f%C3%BAtbol.png);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-size: 100%;
+    background-position-y: -40px;
+}
+
+
+/**DESCRP DE LA CAJA DE SKATE**/
+
+.Caja_Descripcion3 {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    height: 100vh;
+    background-image: url(https://i.redd.it/ehuxvgealal41.jpg);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-size: 150%;
+    margin-left: 20px;
+}
+
+
+/**DESCRP DE LA CAJA DE JORDAN**/
+
+.Caja_Descripcion4 {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 200px;
+    padding-bottom: 300px;
+    height: 100vh;
+    background-image: url(https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0715%2Fr719576_864x1296_2%2D3.jpg&w=375&h=563);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-size: 100%;
+    margin-left: 20px;
+}
+
+
+/**DESCRP DE LA CAJA DE TRAINNING**/
+
+.Caja_Descripcion5 {
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    height: 100vh;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_3.0/h_500,c_limit/24409f50-5dc7-44ef-a3f8-125951dca7f4/nike-training-club-app-entrenamientos-en-casa-y-mucho-ms.jpg);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 60px;
+    background-size: 100%;
+    background-position-y: -40px;
+}
+
+
+/**TITULOS DE LAS DESCP EN GRID 1**/
+
+.Titulos_colecciones {
+    margin: 15px;
+    display: inline-block;
+    border-bottom: 3px solid #B7B7A4;
+    color: #B7B7A4;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 500;
+}
+
+
+/**TITULOS DE LAS DESCP EN GRID 2**/
+
+.Titulos_colecciones2 {
+    margin: 15px;
+    display: inline-block;
+    border-bottom: 3px solid #B7B7A4;
+    color: #B7B7A4;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 400;
+}
+
+
+/**MODIFICADOR DE LA IMAGEN DE LA COLECCION SPORTWEAR**/
+
+.ImgMenu_Vapo {
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-image: url(https://www.sneakers-actus.fr/wp-content/uploads/2018/10/Nike-Air-Vapormax-FK-2-verte-avec-%C3%A9cailles-de-serpent-on-feet-AV7973-300.jpg);
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    color: #B7B7A4;
+    margin-left: 70px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-position-x: 700px;
+    background-position-y: -300px;
+    background-size: 140vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/**MODIFICADOR DE LA IMAGEN DE LA COLECCION RUNNING**/
+
+.ImgMenu_Run {
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_3.0/h_500,c_limit/01f0409f-a9ad-409a-a7b1-3d6ff7a7d9f9/nike-running.jpg);
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    color: #B7B7A4;
+    margin-left: 20px;
+    margin-right: 70px;
+    border-radius: 10px;
+    background-size: 140vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/**MODIFICADOR DEL TEXTO DE NUEVOS LANZAMIENTOS**/
+
+.lanzamientos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+/**MODIFICADOR DE LA FOTO DE LOS NUEVOS LANZAMIENTOS**/
+
+.foto_lanzamiento {
+    background-image: url(https://hyped.es/fyimhshhzgmdfjrtdlgwdpxcnfwj/2021/03/nike-dunk-low-easter-dd1872-100-9.jpg);
+    height: 100vh;
+    width: 70%;
+    z-index: 3;
+    background-size: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 300px;
+}
+
+
+/**MODIFICADOR DE LA IMAGEN DE COLECCION FUTBOL**/
+
+.ImgMenu_Fut {
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_2.0/h_500,c_limit/e30415b6-c422-44c7-a08e-8ea626f9c14e/nike-ftbol.jpg);
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    color: #B7B7A4;
+    margin-left: 20px;
+    margin-right: 70px;
+    border-radius: 10px;
+    background-size: 140vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-size: 80%;
+    background-position-x: -100px;
+    background-position-y: 50px;
+}
+
+
+/**MODIFICADOR DE LA IMAGEN DE COLECCION SKATE**/
+
+.ImgMenu_Skate {
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-image: url(https://www.tactics.com/a/8kvo/r/nike-sb-janoski-hyperfeel-skate-shoes-wear-test-review.jpg);
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    color: #B7B7A4;
+    margin-left: 70px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-position-x: 400px;
+    background-size: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/** FOTO DE ULTIMOS LANZAMIENTOS**/
+
+.Ulanzamientos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+/**MODIFICADOR DE NUEVOS LANZAMIENTO SEGUNDO**/
+
+.foto_Ulanzamiento {
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_0.8/w_1574,c_limit/85b1cd26-23ff-44a1-80b6-360ce24cf5ed/sitio-web-oficial-de-nike.jpg);
+    height: 100vh;
+    width: 100%;
+    z-index: 3;
+    background-size: 100%;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin-bottom: -100px;
+}
+
+
+/**MODIFICADOR DE LA FOTO DE LA COLECCION JORDAN**/
+
+.ImgMenu_Jordan {
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-image: url(https://alacontra.es/wp-content/uploads/2020/05/air-jordan-nike-shoes-gt-img.jpg);
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    color: #B7B7A4;
+    margin-left: 70px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-position-x: 400px;
+    background-size: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100vh;
+}
+
+
+/**MODIFICADOR DE LA IMAGEN DE COLECCION TRAINNING**/
+
+.ImgMenu_Train {
+    z-index: 3;
+    background-repeat: no-repeat;
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_3.0/h_500,c_limit/b7888a18-c685-4685-9d92-4591e10d3d91/nike-training.jpg);
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    color: #B7B7A4;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-position-x: -120px;
+    background-position-y: -600px;
+    background-size: 70%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 100vh;
+}
+
+.caja_grid1 {
+    display: grid;
+    grid-template-columns: 35vw 63vw;
+}
+
+.caja_grid2 {
+    display: grid;
+    grid-template-columns: 63vw 35vw;
+}
+
+
+/**APARTADOS**/
+
+.imagen_principalV {
+    height: 45vh;
+    width: 100%;
+    z-index: 3;
+    background-size: 100%;
+    background-image: url(https://mymove.biz/brands/b219455cde9c794e3e2719735d377cf5.jpg);
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+
+/** MODIFICADOR DEL CATALOGO FLEX**/
+
+.catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-left: 3vw;
+    margin-right: 1vw;
+    margin-top: 100px;
+    list-style: none;
+}
+
+
+/** PRODUCTO1 SPRTSW**/
+
+.producto1 {
+    padding-top: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    background-image: url(https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/63295b63-0635-4f58-b8e4-c8814494fcf8/mochila-brasilia-jdi-9ZSSdT.png);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    width: 30vw;
+    height: 100vh;
+    background-position-x: -400px;
+}
+
+
+/** PRODUCTO2 SPRTSW**/
+
+.producto2 {
+    padding-top: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    background-image: url(https://img01.ztat.net/article/spp-media-p1/1fd9db3afe883a658410f538257b95b3/25ddfc25ee00410bb6cffd9e7bf5f348.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    width: 30vw;
+    height: 100vh;
+    background-size: 110%;
+}
+
+
+/** PRODUCTO3 SPRTSW**/
+
+.producto3 {
+    padding-top: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    background-image: url(https://essential.vteximg.com.br/arquivos/ids/404843-1000-1000/302-0364_1.jpg);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    width: 30vw;
+    height: 100vh;
+    background-size: 160%;
+    background-position-x: -100px;
+    background-repeat: no-repeat;
+}
+
+
+/** BANNER 1 SPRTSW**/
+
+.fotosports {
+    background-image: url(https://i8.amplience.net/i/jpl/desktop-top-and-bottom-banner-bb3144509cf2801b74db11a330cfd86f);
+    height: 58vh;
+    width: 100%;
+    z-index: 3;
+    background-size: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+
+/** PRODUCTO4 SPRTSW**/
+
+.producto4 {
+    padding-top: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_680581-MCO41759643013_052020-O.jpg);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    width: 30vw;
+    height: 100vh;
+    background-size: 160%;
+    background-position-x: -60px;
+    background-repeat: no-repeat;
+}
+
+
+/** PRODUCTO5 SPRTSW**/
+
+.producto5 {
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    background-image: url(https://www.tripstore.com.ar/media/catalog/product/cache/4769e4d9f3516e60f2b4303f8e5014a8/C/J/CJ4358-499_0.jpg);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    width: 30vw;
+    height: 100vh;
+    background-size: 160%;
+    background-position-x: -150px;
+}
+
+
+/** PRODUCTO6 SPRTSW**/
+
+.producto6 {
+    padding-top: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    background-image: url(https://essential.vteximg.com.br/arquivos/ids/353395-1000-1000/302-0018_1.jpg?v=637363853166270000);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    width: 30vw;
+    height: 100vh;
+    background-position-x: -400px;
+    background-size: 150%;
+    background-position-x: -100px;
+    background-position-y: 20px;
+}
+
+
+/** BANNER 2 SPRTSW**/
+
+.fotosports1 {
+    background-image: url(http://www.hycstudios.com/wp-content/uploads/2016/10/NIke-NBX-banner.png);
+    height: 58vh;
+    width: 100%;
+    z-index: 3;
+    background-size: 90%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+
+/** PRODUCTO1 SPRTSW**/
+
+.producto7 {
+    padding-top: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    background-image: url(https://essential.vteximg.com.br/arquivos/ids/353414-1000-1000/302-0022_1.jpg?v=637363853279930000);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    width: 30vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 165%;
+    background-position-x: -150px;
+}
+
+
+/** PRODUCTO8 SPRTSW**/
+
+.producto8 {
+    padding-top: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_859866-MLA44072319865_112020-O.jpg);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    width: 30vw;
+    height: 100vh;
+    background-size: 130%;
+}
+
+
+/** PRODUCTO9 SPRTSW**/
+
+.producto9 {
+    padding-top: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    background-image: url(https://i.pinimg.com/originals/57/3c/6d/573c6d7cc494c797bd82539f7b0d005f.jpg);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    width: 30vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+
+/** BANNER3 SPRTSW**/
+
+.fotosports2 {
+    background-image: url(https://www.collectoffers.com/EditorImages/banner1.jpg);
+    height: 58vh;
+    width: 100%;
+    z-index: 3;
+    background-size: 90%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+}
+
+
+/** PRODUCTO 1 Running **/
+
+.producto1R {
+    padding-top: 20px;
+    border-radius: 15px;
+    display: inline-block;
+    background-image: url(https://sneakerspirit.com/fr/wp-content/uploads/sites/3/2021/04/NikeNews_AirZoomPegasus38_2_hd_1600.jpg);
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 1;
+    width: 30vw;
+    height: 100vh;
+    background-position-x: 0px;
+    background-position-y: 20px;
+    background-repeat: no-repeat;
+}
+
+
+/** TITULO ADENTRO DE LAS FOTOS EN CATALOGO**/
+
+.titulo-producto {
+    margin-top: 80vh;
+    margin-left: -23vh;
+    font-family: 'Staatliches', cursive;
+    font-size: 50px;
+    color: black;
+    opacity: 1;
+}
+
+
+/**BOTONES DE VER MAS EN CATALOGO**/
+
+.Vermas {
+    color: black;
+    display: inline-block;
+    font-family: 'Staatliches', cursive;
+    background-color: #464E4D;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 1vh;
+    margin-left: -23vw;
+}
+
+
+/**ANIMACION CUANDO PONES EL MOUSE POR ARRIBA EN VER MAS**/
+
+.Vermas:hover {
+    padding: 13px;
+    transition: 1s;
+}
+
+
+/**FOOTER EN TODAS LAS PAGINAS**/
+
+footer {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-color: #464241;
+    padding: 10px;
+    font-family: 'Staatliches', cursive;
+    font-size: 25px;
+}
+
+
+/**PRODUCTOS DEL CATALOGO**/
+
+.catalogo-producto {
+    display: flex;
+    Flex-wrap: wrap;
+    gap: 50px;
+    margin-left: 20vw;
+    margin-right: 19vw;
+    list-style: none;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+
+/**FOTOS DE LAS VAPORMAX**/
+
+.prodcuto1 {
+    height: 300px;
+    width: 300px;
+}
+
+
+/** BOTON DE COMPRA EN EL PROCESO DE COMPRA**/
+
+.boton-compra {
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #D7D8E8 ;
+    opacity: 0.8;
+    padding: 10px;
+    margin-left: -1vw;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+
+
+/**NOMBRE DE LAS ZAPATILLAS**/
+
+.titulo-descripcion-zapas {
+    font-size: 100px;
+    font-family: 'Staatliches', cursive;
+}
+
+
+/**DESCRIPCION DE LAS ZAPATILLAS**/
+
+.descripcion-descripcion-zapas {
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+
+/**COLOR DE LOS LINKS**/
+
+.Colorlink {
+    color: black;
+    text-decoration: none;
+}
+
+
+/**CONTENEDOR DE LA INTERFAZ DE COMPRA**/
+
+.caja-compra {
+    display: grid;
+    justify-content: center;
+    border: 5px solid grey;
+    height: 100vh;
+    width: 80vw;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 9vw;
+    margin-bottom: 100px;
+    grid-template-columns: 40vw 40vw;
+    grid-template-rows: 40vh 40vh;
+    font-family: 'Staatliches', cursive;
+    background: radial-gradient(circle, #fff, #bbb);
+}
+
+
+/** PRIMER CUADRO DEL FLEX**/
+
+.venta1 {
+    border: 5px black;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 50px;
+}
+
+
+/** MODIFICADOR DEL TEXTO "PROCESO DE COMPRA"**/
+
+.titulo-compra {
+    font-family: 'Staatliches', cursive;
+    font-size: 80px;
+    margin-top: 40px;
+}
+
+
+/** SEGUNDO CUADRO DEL FLEX**/
+
+.venta2 {
+    background-image: url(https://sneakernews.com/wp-content/uploads/2021/03/nike-vapormax-flyknit-2021-oreo-DH4088-003-release-date-8.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: 100px;
+    margin: 30px;
+    background-position-y: -70px;
+}
+
+
+/** TERCER CUADRO DEL FLEX**/
+
+.venta3 {
+    font-size: 25px;
+}
+
+
+/** CUARTO CUADRO DEL FLEX**/
+
+.venta4 {
+    background-size: 105%;
+    background-position-x: -25px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.elcotillonero.com.ar/wp-content/uploads/2018/03/formas-pago-2.png);
+}
+
+
+/** INPUTS EN EL FORMULARIO**/
+
+.inputs {
+    padding: 7px;
+    margin: 6px 0;
+    border: none;
+    border-bottom: 2px solid gray;
+    background: transparent;
+    color: black;
+}
+
+
+/** ANIMACION CUANDO SELECCIONAS LOS INPUTS**/
+
+.inputs:focus {
+    background: linear-gradient(to bottom, transparent, #464E4D);
+    outline: none;
+    border-bottom: 2px solid black;
+    transition: 10s;
+}
+
+
+/**MODIFICADOR DEL BOTON DE MANDAR**/
+
+.mandar {
+    padding: 15px 25px;
+}
+
+
+/**MODIFICADOR CUANDO SELECCIONAS EL COMPRAR**/
+
+.mandar[type="submit"]:hover {
+    background-color: rgb(100, 92, 92);
+    border-bottom: none;
+    transition: 1s;
+}
+
+.mandar[type="submit"]:focus {
+    background: rgb(55, 50, 50);
+}
+
+
+/** QUINTO CUADRO DEL FLEX**/
+
+.venta5 {
+    background-image: url(https://www.snipes.es/on/demandware.static/-/Library-Sites-snse-global/default/dw37ca7923/images/General_Header/Brands/Snipes_OS_Logo_Header_NikeSportswear.jpg);
+    background-size: 100%;
+    border-bottom-left-radius: 15px;
+    margin-left: 5px;
+}
+
+.venta21{
+    background-image: url(https://static.nike.com/a/images/t_default/6e270cf7-1c57-4d08-a94f-092a73c5b21c/mochila-brasilia-jdi-9ZSSdT.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    margin: 30px;
+    background-position-x: 150px;
+}
+
+/** SEXTO CUADRO DEL FLEX**/
+
+.venta6 {
+    background-image: url(https://www.snipes.es/on/demandware.static/-/Library-Sites-snse-global/default/dw37ca7923/images/General_Header/Brands/Snipes_OS_Logo_Header_NikeSportswear.jpg);
+    background-size: 100%;
+    border-bottom-right-radius: 15px;
+    margin-right: 5px;
+
+}
+
+
+::selection{
+    background-color: black;
+    color: white;
+}
+
+.venta22{
+    background-image: url(https://static.nike.com/a/images/t_default/i1-9828c436-cbb4-40d9-8183-7064edee7ed7/calzado-air-max-verona-16424p.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    margin: 30px;
+    background-position-x: 150px;
+    background-position-y: -60px;
+}
+
+.venta23{
+    background-image: url(https://cdn.discordapp.com/attachments/691755906182152274/853771502495072266/nikejap-h-red1-f664668ed29289632b15864846779750-640-0.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    margin: 30px;
+    background-position-x: 150px;
+    background-position-y: -10px;
+}
+
+/*header {
+    background-color: white;
+    top: 0;
+    position: sticky;
+    z-index: 100;
+    font-weight: bold;
+}
+
+.nav__a {
+    color: #B7B7A4;
+}
+
+.nav__li {
+    display: inline-block;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.nav__li:hover {
+    font-size: 20px;
+    transition: 1s;
+}
+
+.nav__div-menu {
+    background-color: #464E4D;
+}
+
+.li__img {
+    display: inline-block;
+    width: 25px;
+}
+*/
+
+
+#menu{
+    z-index:150 ;
+    list-style: none;
+    display: none;
+
+}
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+    #menu{
+        display: block;
+        list-style: none;
+        padding: 20px;
+        color: white;
+        z-index: 150px;
+    }
+
+    #menu:target > .nav__li{
+        display: block;
+        top: 0px;
+    }
+
+    .nav__li{
+        display: block;
+        top:-1000px ;
+        position: relative;
+    }
+    .nav__div-menu{
+        height: 60px;
+    }
+}
+
