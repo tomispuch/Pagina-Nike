@@ -1095,3 +1095,9 @@ footer {
     }
 }
 
+/* EN MANTENIMIENTO */
+
+.mantenimiento{
+    font-family: 'Staatliches', cursive;
+    margin: 150px;
+}
