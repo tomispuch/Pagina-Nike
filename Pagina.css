@@ -107,6 +107,7 @@ header {
     margin-top: 80vh;
     margin-right: 40vw;
     font-size: 18px;
+    text-decoration: none;
     
 }
 
@@ -1099,5 +1100,9 @@ footer {
 
 .mantenimiento{
     font-family: 'Staatliches', cursive;
-    margin: 150px;
+    margin: 175px;
+}
+
+.selector{
+    padding: 0px;
 }
