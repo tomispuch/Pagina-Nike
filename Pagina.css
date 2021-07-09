@@ -13,15 +13,34 @@
 /**MODIFICADOR DE LA IMAGEN PRINCIPAL DE LA PAGINA PRINCIPAL*/
 
 .imagen_principal {
-    height: 45vh;
+    height: 40vh;
     width: 100%;
+    background-position-y: -130px;
     z-index: 3;
-    background-size: 100%;
-    background-image: url(https://www.snipes.es/on/demandware.static/-/Library-Sites-snse-global/default/dw37ca7923/images/General_Header/Brands/Snipes_OS_Logo_Header_NikeSportswear.jpg);
+    background-size:  100% ;
+    background-image: url(http://www.solofondos.com/wp-content/uploads/2016/05/new_york_night_city_skyscraper_129965_2560x1080.jpg);
     position: relative;
     overflow: hidden;
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+
+.logo{
+    margin-top: 15vh;
+    transform: translateY(15vh);
+    width: 220px;
+    height: 100px;
+    animation: movimiento 1s infinite linear alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes movimiento{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
 }
 
 .titulo_principal {
@@ -88,7 +107,9 @@ header {
     margin-top: 80vh;
     margin-right: 40vw;
     font-size: 18px;
+    
 }
+
 
 
 /** MODIFICADOR DE LOS CUADROS DE LA DERECHA EN LOS GRID EN LOS GRID 2**/
@@ -147,6 +168,7 @@ header {
     background-image: url(https://static.nike.com/a/images/f_auto/dpr_3.0/w_371,c_limit/0ba440cc-b3f9-4687-99f1-f7d8ab7f0c99/nike-sportswear.png);
     margin-top: 20px;
     margin-bottom: 20px;
+    
     
 }
 
@@ -295,7 +317,10 @@ header {
     background-size: 140vh;
     margin-top: 20px;
     margin-bottom: 20px;
+    /**/
 }
+
+
 
 
 /**MODIFICADOR DE LA IMAGEN DE LA COLECCION RUNNING**/
